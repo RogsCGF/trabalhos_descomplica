@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Horto Quintal e Jardim</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body >
+    <header class="container-fluid p-2 bg-success text-center text-white-50">
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Horto Quintal e Jardim</a>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-end bg-sucsses" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link link-light" aria-current="page" href="#quemsomos">Quem somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-light" href="#servicos">Nossos Serviços</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-light" href="#faleconosco" role="button" >
+                         Fale Conosco
+                        </a>
+                        </li>
+                         
+                    </ul>
+                  </div>
+            </div>
+           
+        </nav>
+        <h1>Horto Quintal e Jardim</h1>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens projeto/editada-jardim.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens projeto/editada-mudas.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens projeto/editada-cactos.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </header>
+<section class="container-fluid p-2" id="quemsomos">
+<h1 class="text-center">Quem somos</h1>
+<p>Somos uma empresa especializada no cuidado de plantas. Além, além de encontrar desde mudas de plantas floríferas,
+    frutíferas e hortaliças, você também pode adquirir equipamentos e produtos para cuidar melhor de suas plantas. Seja para o seu
+    jardim, horta ou vasos, do que você precisar você pode encontrar aqui. 
+</p>
+
+  
+  </section>
+  <section class="constainer-fluid p-2" id="servicos"> 
+    
+    <h1 class="text-center">Nossos Serviços</h1>
+    <p> Além do comércio de plantas, equipamentos e insumos, também oferecemos os seguintes serviços para sua comodidade:</p>
+    <div class="row p2">
+        <div class="card-group">
+    <div class="card">
+        <h5 class="card-header bg-success text-white-50 text-center">Paisagismo</h5>
+        <div class="card-body">
+        <p class="card-text">Fazemos todo o projeto de seu jardim escolhendo as melhores espécies levando em consideração 
+            a incidência de sol, tipo de solo, porte desejado e a arquitetura de seu imóvel.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h5 class="card-header bg-success text-white-50 text-center">Jardinagem</h5>
+        <div class="card-body">
+        <p class="card-text">Este serviço inclui toda a manutenção de seu jardim. Ele inclui poda, limpeza, eliminação de ervas daninhas,
+            adubação do solo, diagnóstico e tratamento de doenças.
+            </p>      
+        </div>
+      </div>
+      <div class="card">
+        <h5 class="card-header bg-success text-white-50 text-center">pPlant Sitter</h5>
+        <div class="card-body">
+        <p class="card-text">Cuidamos de suas plantas caso você precise viajar.
+            </p>      
+        </div>
+      </div>  
+
+</div>      
+</div>
+</section>
+
+
+<section class="p-2" id="faleconosco">
+    <h2>Fale conosco!</h2>
+    <p>Entre em contato caso queira tirar alguma dúvida ou para solicitar um orçamento <a href=# class="link-success" target="_blank">Clicando aqui</a>
+    para falar conosco pelo whatsapp ou se preferir mande uma mensagem</p>
+    <fieldset>
+        <form method="get" action="">
+          <div class="mb-3"></div>
+            <label class="form-label" for="nome" >Nome:</label>
+            <input type="text" class="form-control" name="nome" id="nome">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="E-mail">E-mail:</label>
+            <input type="email" class="form-control" name="E-mail" placeholder="email@xyz.com" id="E-mail" required>
+          </div>
+        
+        <div class="mb-3">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Deixe sua mensagem aqui" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Escreva sua mensagem aqui</label>
+              </div>
+        </fieldset>
+    </div>
+    <b></b>
+  <button class="btn btn-success p-2">Enviar!</button> </div>
+  <br>
+    </form>
+</section>
+<footer class="container-fluid bg-success text-white-50 text-center p-2"><p>Desenvolvido por Rogério Gomes em 2023</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>   
+</body>
+</html>
